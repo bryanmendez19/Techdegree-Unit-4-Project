@@ -6,7 +6,10 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-//  transition: ; //DO THIS
+  &:hover {
+      transition: background-color, 1.5s;
+    }
+    
 }
 
 .default {
@@ -18,16 +21,28 @@
 
 .error {
   background-color: #e4757a;
+  &:hover {
+      background-color: lighten($btn-error, 15%);
+    }
 }
 
 .info {
   background-color: #927bc1;
+      &:hover {
+      background-color: lighten($btn-info, 15%);
+    }
 }
 
 .success {
   background-color: #63cc82;
+          &:hover {
+      background-color: lighten($btn-success, 15%);
+    }
 }
 
 .warning {
   background-color: #fd7856;
+              &:hover {
+      background-color: lighten($btn-warning, 15%);
+                }
 }
