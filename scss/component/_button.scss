@@ -6,10 +6,7 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  &:hover {
-      transition: background-color, 1.5s;
-    }
-    
+  transition: background-color, 1s;
 }
 
 .default {
